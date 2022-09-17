@@ -1,0 +1,600 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1662940308034324, "dur": 705663, "ph": "X", "name": "Build ScriptAssemblies", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1662940308035443, "dur": 23122, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1662940308058795, "dur": 670819, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1662940308729630, "dur": 10357, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1662940328414407, "dur": 1099719, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1662940328414642, "dur": 13179, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1662940328427823, "dur": 48331, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1662940328476200, "dur": 594849, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1662940329071051, "dur": 432866, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1662940329503920, "dur": 10205, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1662940329514782, "dur": 19, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1662940328909689, "dur": 149165, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1662940328910600, "dur": 50243, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1662940329042241, "dur": 4725, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1662940329046969, "dur": 11878, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1662940329047559, "dur": 10469, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1662940329062700, "dur": 1126, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1662940329061967, "dur": 1877, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1662940329514899, "dur": 196, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1662940329125824, "dur":1952, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662940329127781, "dur":1841, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1662940329129656, "dur":112, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1662940329129769, "dur":894, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1662940329130764, "dur":782, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662940329131546, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662940329485435, "dur":176, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662940329485611, "dur":26, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662940329485637, "dur":40, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662940329485677, "dur":24, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662940329485701, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662940329485703, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662940329485709, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662940329485710, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662940329485716, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662940329485717, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662940329485722, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662940329485723, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662940329485727, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662940329485728, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662940329485733, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662940329485735, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662940329485739, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662940329485740, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662940329485745, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662940329485746, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662940329485751, "dur":49, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662940329485800, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662940329485804, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662940329485806, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662940329485812, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662940329485818, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662940329485848, "dur":8654, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1662940329130775, "dur":776, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662940329131553, "dur":4916, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662940329136481, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1662940329136485, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662940329137753, "dur":541, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1662940329138299, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1662940329138357, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662940329138701, "dur":11824, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1662940329150528, "dur":134, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1662940329150665, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662940329151566, "dur":6463, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1662940329158090, "dur":245829, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662940329403925, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662940329403935, "dur":17661, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662940329421654, "dur":63793, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662940329130817, "dur":739, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662940329131556, "dur":4923, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662940329136481, "dur":198, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1662940329136706, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662940329141987, "dur":13741, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1662940329155792, "dur":63600, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662940329219396, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662940329219894, "dur":2350, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662940329222306, "dur":5744, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662940329228054, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662940329228066, "dur":5087, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662940329233211, "dur":1775, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662940329234991, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662940329234997, "dur":4969, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662940329240038, "dur":4287, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662940329244329, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662940329244336, "dur":3296, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662940329247752, "dur":362, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/Unity.RenderPipelines.Universal.Shaders.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662940329248117, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662940329248123, "dur":3356, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/Unity.RenderPipelines.Universal.Shaders.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662940329251541, "dur":1187, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662940329252731, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662940329252737, "dur":2070, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662940329254858, "dur":5567, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662940329260429, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662940329260436, "dur":5829, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662940329266489, "dur":3673, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662940329270166, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662940329270179, "dur":2244, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662940329272478, "dur":840, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662940329273322, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662940329273330, "dur":993, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662940329274370, "dur":1682, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662940329276056, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662940329276066, "dur":1630, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662940329277762, "dur":244, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662940329278009, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662940329278017, "dur":4988, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662940329283075, "dur":1114, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662940329284193, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662940329284203, "dur":3141, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662940329287399, "dur":37312, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662940329324717, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662940329326126, "dur":6379, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662940329332625, "dur":152828, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662940329130840, "dur":720, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662940329131560, "dur":4922, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662940329136484, "dur":319, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1662940329136806, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662940329140508, "dur":338947, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1662940329479533, "dur":5899, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662940329130863, "dur":702, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662940329131565, "dur":4915, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662940329136483, "dur":14873, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1662940329151359, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662940329151378, "dur":2130, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1662940329153553, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":4, "ts":1662940329153655, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662940329153662, "dur":13633, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":4, "ts":1662940329167350, "dur":45168, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR.exe" }}
+,{ "pid":12345, "tid":4, "ts":1662940329212522, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662940329212533, "dur":5988, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR.exe" }}
+,{ "pid":12345, "tid":4, "ts":1662940329218570, "dur":478, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662940329219051, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662940329219057, "dur":1536, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662940329220721, "dur":280, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662940329221004, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662940329221011, "dur":2235, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662940329223310, "dur":231, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662940329223544, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662940329223550, "dur":2587, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662940329226188, "dur":337, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662940329226529, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662940329226558, "dur":1955, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662940329228570, "dur":1051, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662940329229625, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662940329229635, "dur":1564, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662940329231400, "dur":463, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662940329231867, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662940329231874, "dur":1387, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662940329233320, "dur":1038, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662940329234362, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662940329234368, "dur":1825, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662940329236239, "dur":5508, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662940329241751, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662940329241758, "dur":2081, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662940329243889, "dur":541, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662940329244459, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662940329244465, "dur":2354, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662940329246869, "dur":497, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662940329247370, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662940329247377, "dur":1313, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662940329248737, "dur":303, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662940329249044, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662940329249050, "dur":2100, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662940329251205, "dur":866, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662940329252075, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662940329252086, "dur":1943, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662940329254073, "dur":920, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662940329254997, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662940329255006, "dur":1301, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662940329256353, "dur":655, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662940329257011, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662940329257018, "dur":1798, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662940329258866, "dur":978, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662940329259847, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662940329259855, "dur":1784, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662940329261687, "dur":462, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662940329262152, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662940329262162, "dur":2273, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662940329264495, "dur":590, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662940329265088, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662940329265096, "dur":1601, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662940329266753, "dur":1534, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662940329268292, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662940329268303, "dur":1148, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662940329269493, "dur":11202, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662940329280699, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662940329280706, "dur":3047, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662940329283806, "dur":1277, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662940329285087, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662940329285093, "dur":2290, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662940329287436, "dur":816, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":4, "ts":1662940329288256, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662940329288986, "dur":1545, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":4, "ts":1662940329290594, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":4, "ts":1662940329290661, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662940329290710, "dur":1169, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":4, "ts":1662940329291930, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":4, "ts":1662940329291981, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662940329291987, "dur":1208, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":4, "ts":1662940329293243, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":4, "ts":1662940329293305, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662940329293310, "dur":3221, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":4, "ts":1662940329296596, "dur":1471, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":4, "ts":1662940329298072, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662940329298080, "dur":2048, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":4, "ts":1662940329300197, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1662940329300256, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662940329300267, "dur":1412, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1662940329301730, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/resources.assets" }}
+,{ "pid":12345, "tid":4, "ts":1662940329301788, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662940329301796, "dur":1093, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/resources.assets" }}
+,{ "pid":12345, "tid":4, "ts":1662940329302930, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/level0.resS" }}
+,{ "pid":12345, "tid":4, "ts":1662940329302978, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662940329302984, "dur":2134, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/level0.resS" }}
+,{ "pid":12345, "tid":4, "ts":1662940329305176, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/level0" }}
+,{ "pid":12345, "tid":4, "ts":1662940329305221, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662940329305230, "dur":1681, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/level0" }}
+,{ "pid":12345, "tid":4, "ts":1662940329306954, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":4, "ts":1662940329307001, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662940329307007, "dur":3728, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":4, "ts":1662940329310793, "dur":174636, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662940329130886, "dur":682, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662940329131568, "dur":4907, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662940329136483, "dur":193, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1662940329136702, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662940329140615, "dur":11088, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1662940329151760, "dur":20297, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1662940329172065, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662940329172079, "dur":3037, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1662940329175176, "dur":2297, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662940329177479, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662940329177892, "dur":2137, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662940329180093, "dur":536, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662940329180633, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662940329180714, "dur":1093, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662940329181856, "dur":1343, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662940329183203, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662940329183213, "dur":1616, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662940329184879, "dur":708, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662940329185590, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662940329185596, "dur":1318, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662940329186959, "dur":1828, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662940329188791, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662940329188798, "dur":1852, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662940329190701, "dur":563, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662940329191268, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662940329191278, "dur":1425, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662940329192833, "dur":1263, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662940329194100, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662940329194108, "dur":1326, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662940329195481, "dur":503, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662940329195988, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662940329195994, "dur":991, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662940329197064, "dur":1545, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662940329198613, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662940329198622, "dur":995, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662940329199663, "dur":542, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662940329200208, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662940329200215, "dur":1359, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662940329201617, "dur":6154, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662940329207776, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662940329207787, "dur":1168, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662940329209009, "dur":1234, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662940329210247, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662940329210254, "dur":1394, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662940329211700, "dur":1708, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662940329213414, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662940329213425, "dur":1570, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662940329215051, "dur":484, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662940329215538, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662940329215547, "dur":1709, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662940329217308, "dur":754, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662940329218065, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662940329218074, "dur":1166, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662940329219295, "dur":251, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662940329219550, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662940329219557, "dur":1987, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662940329221596, "dur":274, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662940329221873, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662940329221878, "dur":2678, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662940329224601, "dur":159, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662940329224763, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662940329224769, "dur":1782, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662940329226605, "dur":202, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662940329226810, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662940329226816, "dur":1842, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662940329228710, "dur":1193, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662940329229906, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662940329229956, "dur":1214, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662940329231222, "dur":1377, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662940329232603, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662940329232610, "dur":2603, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662940329235270, "dur":3371, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662940329238645, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662940329238654, "dur":1306, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662940329240013, "dur":523, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662940329240540, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662940329240545, "dur":1058, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662940329241645, "dur":504, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662940329242153, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662940329242159, "dur":2524, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662940329244733, "dur":385, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662940329245121, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662940329245128, "dur":2872, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662940329248177, "dur":1605, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/Unity.RenderPipelines.Universal.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662940329249785, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662940329249813, "dur":2709, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/Unity.RenderPipelines.Universal.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662940329252575, "dur":57154, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/Unity.Burst.Cecil.Pdb.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662940329309733, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1662940329309742, "dur":2069, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/Unity.Burst.Cecil.Pdb.dll" }}
+,{ "pid":12345, "tid":5, "ts":1662940329311856, "dur":173574, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1662940329130905, "dur":668, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1662940329131574, "dur":4914, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1662940329136488, "dur":182, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1662940329136698, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1662940329139962, "dur":12891, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1662940329152915, "dur":16593, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1662940329169515, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1662940329169528, "dur":3415, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1662940329172998, "dur":132, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":6, "ts":1662940329173133, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1662940329174055, "dur":31503, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":6, "ts":1662940329205621, "dur":8062, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1662940329213687, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1662940329213694, "dur":1463, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1662940329215200, "dur":622, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1662940329215826, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1662940329215833, "dur":1593, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1662940329217481, "dur":952, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1662940329218437, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1662940329218444, "dur":1420, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1662940329219918, "dur":233, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1662940329220154, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1662940329220186, "dur":1282, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1662940329221525, "dur":283, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1662940329221811, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1662940329221818, "dur":3910, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1662940329225788, "dur":435, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1662940329226227, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1662940329226232, "dur":2165, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1662940329229108, "dur":1080, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1662940329230191, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1662940329230197, "dur":1363, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1662940329231610, "dur":882, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1662940329232495, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1662940329232502, "dur":1648, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1662940329234198, "dur":759, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1662940329234961, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1662940329234968, "dur":2669, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1662940329237699, "dur":1205, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":6, "ts":1662940329238907, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1662940329238914, "dur":1928, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":6, "ts":1662940329240887, "dur":2944, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":6, "ts":1662940329243836, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1662940329243845, "dur":2298, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":6, "ts":1662940329246193, "dur":291, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":6, "ts":1662940329246488, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1662940329246494, "dur":2192, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":6, "ts":1662940329248744, "dur":1106, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll" }}
+,{ "pid":12345, "tid":6, "ts":1662940329249853, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1662940329249860, "dur":2087, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll" }}
+,{ "pid":12345, "tid":6, "ts":1662940329251992, "dur":74616, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/Unity.Burst.Cecil.Rocks.dll" }}
+,{ "pid":12345, "tid":6, "ts":1662940329326615, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1662940329326627, "dur":2328, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/Unity.Burst.Cecil.Rocks.dll" }}
+,{ "pid":12345, "tid":6, "ts":1662940329329006, "dur":156427, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662940329130929, "dur":649, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662940329131578, "dur":4896, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662940329136481, "dur":45209, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":7, "ts":1662940329181715, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662940329182050, "dur":972, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":7, "ts":1662940329183074, "dur":9231, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662940329192309, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662940329192317, "dur":1367, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662940329193726, "dur":869, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662940329194599, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662940329194606, "dur":1695, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662940329196353, "dur":533, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662940329196889, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662940329196896, "dur":1356, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662940329198308, "dur":940, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662940329199252, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662940329199258, "dur":2172, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662940329201478, "dur":2593, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662940329204080, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662940329204095, "dur":1843, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662940329205980, "dur":688, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662940329206673, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662940329206682, "dur":2645, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662940329209389, "dur":675, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662940329210067, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662940329210077, "dur":1409, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662940329211548, "dur":1900, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662940329213452, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662940329213459, "dur":1531, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662940329215052, "dur":541, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662940329215597, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662940329215603, "dur":1720, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662940329217381, "dur":1408, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662940329218793, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662940329218800, "dur":2013, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662940329220866, "dur":271, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662940329221140, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662940329221146, "dur":2338, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662940329223542, "dur":248, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662940329223793, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662940329223799, "dur":2518, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662940329226367, "dur":220, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662940329226590, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662940329226597, "dur":2169, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662940329228822, "dur":1561, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662940329230387, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662940329230393, "dur":2559, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662940329233005, "dur":859, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662940329233867, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662940329233874, "dur":2513, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662940329236446, "dur":570, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662940329237020, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662940329237056, "dur":1356, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662940329238456, "dur":850, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662940329239310, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662940329239316, "dur":1812, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662940329241174, "dur":516, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662940329241693, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662940329241700, "dur":1811, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662940329243563, "dur":327, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662940329243893, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662940329243900, "dur":1640, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662940329245597, "dur":769, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662940329246369, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662940329246388, "dur":2100, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662940329248548, "dur":403, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662940329248955, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662940329248978, "dur":2432, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662940329251468, "dur":5171, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/Unity.InputSystem.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662940329256643, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662940329256652, "dur":1768, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/Unity.InputSystem.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662940329258476, "dur":876, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662940329259356, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662940329259366, "dur":1837, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662940329261255, "dur":1846, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662940329263104, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662940329263112, "dur":2126, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662940329265291, "dur":469, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662940329265764, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662940329265772, "dur":1449, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662940329267273, "dur":2911, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662940329270187, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662940329270194, "dur":2247, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662940329272493, "dur":8190, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662940329280689, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662940329280698, "dur":2771, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662940329283520, "dur":761, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/clipper_library.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662940329284284, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662940329284295, "dur":2168, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/clipper_library.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662940329286523, "dur":9640, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662940329296272, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662940329296286, "dur":1234, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":7, "ts":1662940329297575, "dur":8743, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":7, "ts":1662940329306322, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1662940329306331, "dur":2282, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":7, "ts":1662940329308663, "dur":176765, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1662940329130947, "dur":635, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1662940329131582, "dur":4902, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1662940329136488, "dur":354, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1662940329136846, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1662940329141376, "dur":12460, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1662940329153894, "dur":101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":8, "ts":1662940329153998, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1662940329154004, "dur":2450, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":8, "ts":1662940329156511, "dur":91086, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":8, "ts":1662940329247624, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1662940329247704, "dur":6286, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":8, "ts":1662940329254055, "dur":96987, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/Unity.Burst.Cecil.dll" }}
+,{ "pid":12345, "tid":8, "ts":1662940329351052, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1662940329351069, "dur":3053, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/Unity.Burst.Cecil.dll" }}
+,{ "pid":12345, "tid":8, "ts":1662940329354175, "dur":131275, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1662940329130971, "dur":616, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1662940329131587, "dur":4911, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1662940329136498, "dur":171, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":9, "ts":1662940329136672, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1662940329139990, "dur":333339, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":9, "ts":1662940329473395, "dur":12043, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1662940329131004, "dur":586, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1662940329131591, "dur":4894, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1662940329136486, "dur":14520, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":10, "ts":1662940329151009, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1662940329151026, "dur":1896, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":10, "ts":1662940329152981, "dur":120, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":10, "ts":1662940329153105, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1662940329153112, "dur":332220, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":10, "ts":1662940329485398, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":10, "ts":1662940329485400, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1662940329131016, "dur":578, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1662940329131594, "dur":4898, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1662940329136493, "dur":17985, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":11, "ts":1662940329154481, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1662940329154504, "dur":5400, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":11, "ts":1662940329159969, "dur":102322, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":11, "ts":1662940329262294, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1662940329262300, "dur":2834, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":11, "ts":1662940329265197, "dur":686, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":11, "ts":1662940329265887, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1662940329265894, "dur":1392, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":11, "ts":1662940329267331, "dur":5172, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":11, "ts":1662940329272506, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1662940329272516, "dur":2371, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":11, "ts":1662940329274933, "dur":1275, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":11, "ts":1662940329276211, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1662940329276218, "dur":1466, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":11, "ts":1662940329277741, "dur":1701, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":11, "ts":1662940329279446, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1662940329279455, "dur":2912, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":11, "ts":1662940329282421, "dur":5613, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":11, "ts":1662940329288038, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1662940329288048, "dur":4222, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":11, "ts":1662940329292317, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":11, "ts":1662940329292363, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1662940329292369, "dur":14233, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":11, "ts":1662940329306652, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":11, "ts":1662940329306726, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1662940329306733, "dur":1282, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":11, "ts":1662940329308067, "dur":684, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/boot.config" }}
+,{ "pid":12345, "tid":11, "ts":1662940329308754, "dur":11, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1662940329308773, "dur":2365, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/boot.config" }}
+,{ "pid":12345, "tid":11, "ts":1662940329311197, "dur":174234, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1662940329131038, "dur":560, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1662940329131598, "dur":4878, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1662940329136481, "dur":13489, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":12, "ts":1662940329149977, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1662940329150052, "dur":2227, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":12, "ts":1662940329152328, "dur":105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":12, "ts":1662940329152435, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1662940329152500, "dur":23082, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":12, "ts":1662940329175645, "dur":9700, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1662940329185348, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1662940329185357, "dur":1548, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1662940329186958, "dur":1741, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1662940329188706, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1662940329188717, "dur":1898, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1662940329190668, "dur":673, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1662940329191345, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1662940329191351, "dur":1478, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1662940329192878, "dur":1411, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1662940329194293, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1662940329194301, "dur":1957, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1662940329196315, "dur":484, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1662940329196803, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1662940329196810, "dur":1476, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1662940329198336, "dur":1197, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1662940329199537, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1662940329199544, "dur":1879, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1662940329201478, "dur":21879, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":12, "ts":1662940329223361, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1662940329223370, "dur":2276, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":12, "ts":1662940329225695, "dur":176, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1662940329225874, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1662940329225882, "dur":1106, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1662940329227043, "dur":921, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1662940329227969, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1662940329227977, "dur":1710, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1662940329229736, "dur":711, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1662940329230450, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1662940329230456, "dur":2191, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1662940329232694, "dur":803, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1662940329233500, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1662940329233507, "dur":1435, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1662940329235000, "dur":941, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1662940329235945, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1662940329235952, "dur":2257, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1662940329238260, "dur":1378, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":12, "ts":1662940329239642, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1662940329239648, "dur":1834, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":12, "ts":1662940329241525, "dur":294, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":12, "ts":1662940329241823, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1662940329241829, "dur":2247, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":12, "ts":1662940329244127, "dur":304, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":12, "ts":1662940329244507, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1662940329244513, "dur":2697, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":12, "ts":1662940329247272, "dur":281, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":12, "ts":1662940329247557, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1662940329247564, "dur":1366, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":12, "ts":1662940329248979, "dur":619, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/Unity.RenderPipeline.Universal.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":12, "ts":1662940329249602, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1662940329249609, "dur":2028, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/Unity.RenderPipeline.Universal.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":12, "ts":1662940329251688, "dur":462, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":12, "ts":1662940329252153, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1662940329252159, "dur":1793, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":12, "ts":1662940329254014, "dur":79000, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/Unity.Burst.Cecil.Mdb.dll" }}
+,{ "pid":12345, "tid":12, "ts":1662940329333021, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1662940329333035, "dur":1395, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/efrunze/OneDrive - ENDAVA/Desktop/345345344/IR_Data/Managed/Unity.Burst.Cecil.Mdb.dll" }}
+,{ "pid":12345, "tid":12, "ts":1662940329334483, "dur":150961, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662940329496813, "dur":1813, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1662940329515155, "dur": 624, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1662940329514769, "dur": 1037, "ph": "X", "name": "Write chrome-trace events", "args": {} },
