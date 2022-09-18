@@ -1,3 +1,4 @@
+using System;
 using TMPro;
 using UnityEngine;
 
@@ -15,6 +16,7 @@ public class GameManager : MonoBehaviour
     int coinsCount;
     //death menu
     [SerializeField] UIDeathMenu deathMenu;
+    [SerializeField] GameObject HUD;
 
     //statuses
     GameStatus gameStatus;
@@ -35,11 +37,19 @@ public class GameManager : MonoBehaviour
         UpdateStatistics();
     }
 
+    //temp
+    void Start()
+    {
+        HUD.SetActive(false);
+    }
+    //--temp
+
     void Update(){
         //temp shit
         if (Input.GetKeyDown(KeyCode.H)){
             player.isGameStarted = true;
             playerCamera.isMoving = true;
+            HUD.SetActive(true);
             player.animator.SetTrigger("start");
         }
         //end temp shit
@@ -63,6 +73,9 @@ public class GameManager : MonoBehaviour
 
     void PlayerDeath(){
         Debug.Log("YOURE DEAD");
+        //temp
+        HUD.SetActive(false);
+        //--temp
         deathMenu.menuAnimator.SetTrigger("death");
         playerStatus = PlayerStatus.Dead;
         deathMenu.SetStats(coinsCount, experienceAmount);
@@ -71,6 +84,7 @@ public class GameManager : MonoBehaviour
     public void RestartButtonPress(){
         UnityEngine.SceneManagement.SceneManager.LoadScene("main_scene");
         //temp
+        HUD.SetActive(false);
         player.isGameStarted = true;
         playerCamera.isMoving = true;
         //--temp
