@@ -146,7 +146,8 @@ public class Player : MonoBehaviour
         Debug.Log("COLLIDED WITH SOMETHING");
         if (OnDeath != null) OnDeath();
         gameplayInputActions.player_map.Disable();
-        // this.enabled = false;
+        GameManager.gameStatus = GameStatus.Stopped;
+        Debug.Log(GameManager.gameStatus);
         StartCoroutine(camCollideMove());
         runSpeed = 0f;
         animator.SetTrigger("stumble");

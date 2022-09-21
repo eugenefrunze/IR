@@ -25,5 +25,5 @@ public enum PlayerStatus{
 }
 
 public enum GameStatus{
-    Play, Pause, Stopped
+    Play, Run, Stopped
 }
