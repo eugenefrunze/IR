@@ -2,6 +2,8 @@ using System;
 using System.Collections;
 using TMPro;
 using UnityEngine;
+using UnityEngine.Serialization;
+using Random = UnityEngine.Random;
 
 public class GameManager : MonoBehaviour
 {
@@ -13,7 +15,8 @@ public class GameManager : MonoBehaviour
     //UI
     [SerializeField] TMP_Text experienceText;
     [SerializeField] TMP_Text coinsText;
-    float experienceAmount;
+    [SerializeField] TMP_Text spentText;
+    float rawExperience;
     int coinsCount;
     //death menu
     [SerializeField] UIDeathMenu deathMenu;
@@ -24,6 +27,14 @@ public class GameManager : MonoBehaviour
     //statuses
     public static GameStatus gameStatus;
     PlayerStatus playerStatus;
+    [SerializeField] PeriodType periodType = PeriodType.Commercial;
+    
+    //achievements
+    [SerializeField] Ranks playerRank = Ranks.Intern;
+    [SerializeField] Grades playerGrade = Grades.Technician;
+    [SerializeField] int rankDistMultiplier = 1000;
+    int nextRankThreshold;
+    
 
     void OnEnable(){
         Coin.OnCollected += CoinsUpdate;
@@ -37,17 +48,13 @@ public class GameManager : MonoBehaviour
 
     void Awake(){
         Instance = this;
-        gameStatus = GameStatus.Play;
         UpdateStatistics();
     }
 
-    //temp
-    void Start()
-    {
-        HUD.SetActive(false);
-        startMenuAnimator = startMenu.GetComponent<Animator>();
+    void Start(){
+        GameParamsInit();
+        CalculateNextRankThresh();
     }
-    //--temp
 
     void Update(){
         //temp shit
@@ -56,11 +63,19 @@ public class GameManager : MonoBehaviour
             StartRun();
         }
         //end temp shit
-        ExperienceUpdate();
+        CalculateRank();
+        ExperienceUpdate(rawExperience);
+    }
+
+    void GameParamsInit(){
+        //set the hud off bec in the lobby
+        HUD.SetActive(false);
+        gameStatus = GameStatus.Play;
+        startMenuAnimator = startMenu.GetComponent<Animator>();
     }
 
     public void UpdateStatistics(){
-        experienceText.text = experienceAmount.ToString();
+        experienceText.text = rawExperience.ToString();
         coinsText.text = coinsCount.ToString();
     }
 
@@ -69,10 +84,22 @@ public class GameManager : MonoBehaviour
         coinsText.text = coinsCount.ToString();
     }
 
-    void ExperienceUpdate()
+    void CalculateRank(){
+        rawExperience = player.transform.position.z;
+        if (rawExperience > nextRankThreshold){
+            playerRank++;
+            CalculateNextRankThresh();
+        }
+    }
+    
+    void CalculateNextRankThresh(){
+        nextRankThreshold = ((int) playerRank + 1) * rankDistMultiplier;
+    }
+
+    void ExperienceUpdate(float experience)
     {
-        experienceAmount = player.transform.position.z;
-        experienceText.text = experienceAmount.ToString("0");
+        experienceText.text = playerRank.ToString();
+        spentText.text = experience.ToString("0");
     }
 
     void PlayerDeath() 
@@ -85,7 +112,7 @@ public class GameManager : MonoBehaviour
         //--temp
         deathMenu.menuAnimator.SetTrigger("death");
         playerStatus = PlayerStatus.Dead;
-        deathMenu.SetStats(coinsCount, experienceAmount);
+        deathMenu.SetStats(coinsCount, rawExperience);
     }
 
     public void RestartButtonPress()

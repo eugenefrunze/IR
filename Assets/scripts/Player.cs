@@ -1,6 +1,7 @@
 using System.Collections;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.VFX;
 using Vector3 = UnityEngine.Vector3;
 
 public class Player : MonoBehaviour
@@ -70,11 +71,12 @@ public class Player : MonoBehaviour
     }
 
     void Movement(){
-        //vert movement section
+        //vert movement
         isGrounded = IsGroundedCheck(true);
         animator.SetBool("isGrounded", isGrounded);
         if (isGrounded && jump){
             velocityVertical.y = jumpPower;
+            animator.SetTrigger("jump");
             jump = false;
         }
         else{
@@ -102,8 +104,11 @@ public class Player : MonoBehaviour
     }
 
     void Jump(){
-        animator.SetTrigger("jump");
-        jump = true;
+        //kostbIlb
+        if (!jump & isGrounded){
+            jump = true;
+        }
+        //--kostbIlb
     }
 
     void Roll(){
@@ -118,22 +123,18 @@ public class Player : MonoBehaviour
     }
 
     void StrafeLeft(InputAction.CallbackContext context){
-        Debug.Log("STRAFE LEFT");
         SwitchLane(-1);
     }
     
     void StrafeRight(InputAction.CallbackContext context){
-        Debug.Log("STRAFE RIGHT");
         SwitchLane(1);
     }
 
     public void Jump(InputAction.CallbackContext context){
-        Debug.Log("JUMP");
         Jump();
     }
 
     public void Roll(InputAction.CallbackContext context){
-        Debug.Log("ROLL");
         Roll();
     }
 

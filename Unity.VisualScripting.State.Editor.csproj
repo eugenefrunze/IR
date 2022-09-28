@@ -831,13 +831,13 @@
       <Project>{27c95b5e-a72a-7a56-033d-31b3a93b7f23}</Project>
       <Name>Unity.VisualScripting.Flow.Editor</Name>
     </ProjectReference>
-    <ProjectReference Include="UnityEngine.TestRunner.csproj">
-      <Project>{1420e334-c41b-d800-1ae0-61d2a4544227}</Project>
-      <Name>UnityEngine.TestRunner</Name>
-    </ProjectReference>
     <ProjectReference Include="UnityEditor.TestRunner.csproj">
       <Project>{1dc8cd19-019c-c650-9db4-2d18276113dd}</Project>
       <Name>UnityEditor.TestRunner</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityEngine.TestRunner.csproj">
+      <Project>{1420e334-c41b-d800-1ae0-61d2a4544227}</Project>
+      <Name>UnityEngine.TestRunner</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

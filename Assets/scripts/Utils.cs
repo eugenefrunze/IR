@@ -1,6 +1,3 @@
-using System.Collections;
-using UnityEngine;
-
 enum AxisType
 {
     X, Y, Z
@@ -8,7 +5,7 @@ enum AxisType
 
 public enum ChunkType
 {
-    Bridge, Road, Nature, Tunnel
+    Bridge, Passage, Urbia, Forest, Tunnel
 }
 
 public enum ChunkPosition
@@ -26,4 +23,17 @@ public enum PlayerStatus{
 
 public enum GameStatus{
     Play, Run, Stopped
+}
+
+//achievements
+public enum Ranks{
+    Intern, Junior, Developer, Senior, Lead, Consultant
+}
+
+public enum Grades{
+    Technician, SeniorTechnician, Engineer
+}
+
+public enum PeriodType{
+    Internship, Bench, Commercial
 }

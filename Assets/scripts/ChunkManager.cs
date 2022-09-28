@@ -8,9 +8,10 @@ public class ChunkManager : MonoBehaviour
     [SerializeField] ChunkData firstChunk;
     [SerializeField] int initialSize = 10;
     [SerializeField] Vector3 spawnOrig = new Vector3(0, 0, 0);
+    [SerializeField] ChunkData previousChunkData;
+    [SerializeField] ChunkData currentChunkData;
     //temp
     [SerializeField] float initialOffset = 0f;
-
     [SerializeField] float delayBeforeChunkDestroy = 2f;
 
     Coroutine cycleGenerate;
@@ -18,25 +19,39 @@ public class ChunkManager : MonoBehaviour
     int currRandom;
     public float currOffset;
 
-    void OnEnable(){
+    void OnEnable()
+    {
         TriggerChunkExit.OnChunkExited += DestroyExitedChunk;
     }
 
-    void OnDisable(){
+    void OnDisable()
+    {
         TriggerChunkExit.OnChunkExited -= DestroyExitedChunk;
     }
+    
+    void Start()
+    {
+        if (initialOffset > 0) currOffset += initialOffset;
+        GenerateInit();
+        cycleGenerate = StartCoroutine(CycleGenerate(2f));
+    }
 
-    void GenerateInit(){
-        for (int i = 0; i < initialSize; i++){
+    void GetSuitableNextChunk()
+    {
+        
+    }
+
+    void GenerateInit()
+    {
+        for (int i = 0; i < initialSize; i++)
+        {
             GenerateChunk();
         }
-    // temp
-        cycleGenerate = StartCoroutine(CycleGenerate(2f));
-    // -- temp
     }
     
     // temp
-    IEnumerator CycleGenerate(float delay){
+    IEnumerator CycleGenerate(float delay)
+    {
         if (GameManager.gameStatus == GameStatus.Stopped) {
             StopCoroutine(cycleGenerate);
             yield break;
@@ -45,12 +60,14 @@ public class ChunkManager : MonoBehaviour
         yield return new WaitForSeconds(delay);
         StartCoroutine(CycleGenerate(delay));
     }
-    // -- temp
 
-    void GenerateChunk(){
+    void GenerateChunk()
+    {
         currRandom = Random.Range(0, chunksData.Length);
-        GameObject newChunk = Instantiate(chunksData[currRandom].chunkPrefab, new Vector3(0, 0, currOffset), Quaternion.Euler(0, 180, 0));
-        currOffset += chunksData[currRandom].length;
+        currentChunkData = chunksData[currRandom];
+        
+        GameObject newChunk = Instantiate(currentChunkData.chunkPrefab, new Vector3(0, 0, currOffset), Quaternion.Euler(0, 180, 0));
+        currOffset += currentChunkData.length;
         // temp
         Chunk chcom = newChunk.GetComponent<Chunk>();
         if (chcom != null){
@@ -59,19 +76,15 @@ public class ChunkManager : MonoBehaviour
         //--temp
     }
 
-    void Start(){
-        if (initialOffset > 0){
-            currOffset += initialOffset;
-        }
-        GenerateInit();
-    }
     
     //temp
-    public void DestroyExitedChunk(GameObject chunk){
+    public void DestroyExitedChunk(GameObject chunk)
+    {
         StartCoroutine(ChunkDestroy(chunk, delayBeforeChunkDestroy));
     }
 
-    IEnumerator ChunkDestroy(GameObject chunk, float delay){
+    IEnumerator ChunkDestroy(GameObject chunk, float delay)
+    {
         yield return new WaitForSeconds(delay);
         Destroy(chunk);
     }

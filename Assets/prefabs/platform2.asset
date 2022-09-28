@@ -15,4 +15,4 @@ MonoBehaviour:
   length: 32
   chunkPrefab: {fileID: 1768012855825200575, guid: cabfd829e0efd7043b62f869587c8521, type: 3}
   chucnkType: 3
-  chunkPos: 0
+  chunkPos: 1
