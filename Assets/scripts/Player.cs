@@ -183,13 +183,12 @@ public class Player : MonoBehaviour
 
     public void Pause(InputAction.CallbackContext context)
     {
-        print("PAUSE");
         Pause();
     }
 
     public void Restart(InputAction.CallbackContext context)
     {
-        print("PAUSE");
+        print("RESTARTING");
         Restart();
     }
 
@@ -216,7 +215,6 @@ public class Player : MonoBehaviour
         Vector3 targetCamPos = new Vector3(playerCam.transform.position.x, playerCam.transform.position.y, playerCam.transform.position.z - 2.5f);
         Vector3 startCamPos = playerCam.transform.position;
         float timeCount = 0f;
-        Debug.Log("AAAAAAA");
         while (playerCam.position.z > targetCamPos.z){
             playerCam.transform.position = Vector3.Lerp(startCamPos, targetCamPos, timeCount / 0.5f);
             timeCount += Time.deltaTime;
