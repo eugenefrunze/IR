@@ -7,7 +7,7 @@ using Random = UnityEngine.Random;
 
 public class GameManager : MonoBehaviour
 {
-    //main
+    Renderer _renderer;
     public static GameManager Instance{ set; get; }
     [SerializeField] Player player;
     [SerializeField] PlayerCamera playerCamera;
@@ -39,11 +39,13 @@ public class GameManager : MonoBehaviour
     void OnEnable(){
         Coin.OnCollected += CoinsUpdate;
         Player.OnDeath += PlayerDeath;
+        Player.OnManuallyRestart += RestartGame;
     }
 
     void OnDisable(){
         Coin.OnCollected -= CoinsUpdate;
         Player.OnDeath -= PlayerDeath;
+        Player.OnManuallyRestart -= RestartGame;
     }
 
     void Awake(){
@@ -54,6 +56,9 @@ public class GameManager : MonoBehaviour
     void Start(){
         GameParamsInit();
         CalculateNextRankThresh();
+        //make invisible
+        GetComponent<Renderer>().enabled = false;
+
     }
 
     void Update(){
@@ -117,6 +122,11 @@ public class GameManager : MonoBehaviour
 
     public void RestartButtonPress()
     {
+        RestartGame();
+    }
+
+    public void RestartGame()
+    {
         UnityEngine.SceneManagement.SceneManager.LoadScene("main_scene");
         //temp
         HUD.SetActive(false);
@@ -128,7 +138,6 @@ public class GameManager : MonoBehaviour
     public void StartRun()
     {
         gameStatus = GameStatus.Run;
-        
         //temp
         player.isGameStarted = true;
         playerCamera.isMoving = true;
@@ -136,5 +145,14 @@ public class GameManager : MonoBehaviour
         startMenuAnimator.SetTrigger("start");
         HUD.SetActive(true);
         //--temp
+    }
+
+    IEnumerator MusicMuter(AudioSource music)
+    {
+        while (music.volume > 0)
+        {
+            music.volume -= Time.deltaTime;
+            yield return null;
+        }
     }
 }

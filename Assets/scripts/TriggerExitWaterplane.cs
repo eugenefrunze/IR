@@ -14,4 +14,9 @@ public class TriggerExitWaterplane : MonoBehaviour
         waterPlane.GenerateNextStep();
         Destroy(selfWaterPlane);
     }
+
+    void Start()
+    {
+        GetComponent<Renderer>().enabled = false;
+    }
 }

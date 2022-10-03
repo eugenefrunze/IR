@@ -62,6 +62,24 @@ public partial class @PlayerInputActions : IInputActionCollection2, IDisposable
                     ""processors"": """",
                     ""interactions"": """",
                     ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""pause"",
+                    ""type"": ""Button"",
+                    ""id"": ""f1437b86-7804-47a8-bf38-5f3588bcc591"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""restart"",
+                    ""type"": ""Button"",
+                    ""id"": ""434846d8-8b78-4e38-815f-905d3958f3ff"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
                 }
             ],
             ""bindings"": [
@@ -130,6 +148,39 @@ public partial class @PlayerInputActions : IInputActionCollection2, IDisposable
                     ""action"": ""roll"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""78b81251-a884-417b-b03d-8ea40fd1cc6e"",
+                    ""path"": ""`"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""pause"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""bd8b7809-ca06-49ea-902c-89b65e6126ab"",
+                    ""path"": ""<Keyboard>/p"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""pause"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""46934d6f-92d5-4df0-a0f1-7a86baa3f57d"",
+                    ""path"": ""<Keyboard>/r"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""restart"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
                 }
             ]
         }
@@ -142,6 +193,8 @@ public partial class @PlayerInputActions : IInputActionCollection2, IDisposable
         m_player_map_strafe_right = m_player_map.FindAction("strafe_right", throwIfNotFound: true);
         m_player_map_jump = m_player_map.FindAction("jump", throwIfNotFound: true);
         m_player_map_roll = m_player_map.FindAction("roll", throwIfNotFound: true);
+        m_player_map_pause = m_player_map.FindAction("pause", throwIfNotFound: true);
+        m_player_map_restart = m_player_map.FindAction("restart", throwIfNotFound: true);
     }
 
     public void Dispose()
@@ -205,6 +258,8 @@ public partial class @PlayerInputActions : IInputActionCollection2, IDisposable
     private readonly InputAction m_player_map_strafe_right;
     private readonly InputAction m_player_map_jump;
     private readonly InputAction m_player_map_roll;
+    private readonly InputAction m_player_map_pause;
+    private readonly InputAction m_player_map_restart;
     public struct Player_mapActions
     {
         private @PlayerInputActions m_Wrapper;
@@ -213,6 +268,8 @@ public partial class @PlayerInputActions : IInputActionCollection2, IDisposable
         public InputAction @strafe_right => m_Wrapper.m_player_map_strafe_right;
         public InputAction @jump => m_Wrapper.m_player_map_jump;
         public InputAction @roll => m_Wrapper.m_player_map_roll;
+        public InputAction @pause => m_Wrapper.m_player_map_pause;
+        public InputAction @restart => m_Wrapper.m_player_map_restart;
         public InputActionMap Get() { return m_Wrapper.m_player_map; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -234,6 +291,12 @@ public partial class @PlayerInputActions : IInputActionCollection2, IDisposable
                 @roll.started -= m_Wrapper.m_Player_mapActionsCallbackInterface.OnRoll;
                 @roll.performed -= m_Wrapper.m_Player_mapActionsCallbackInterface.OnRoll;
                 @roll.canceled -= m_Wrapper.m_Player_mapActionsCallbackInterface.OnRoll;
+                @pause.started -= m_Wrapper.m_Player_mapActionsCallbackInterface.OnPause;
+                @pause.performed -= m_Wrapper.m_Player_mapActionsCallbackInterface.OnPause;
+                @pause.canceled -= m_Wrapper.m_Player_mapActionsCallbackInterface.OnPause;
+                @restart.started -= m_Wrapper.m_Player_mapActionsCallbackInterface.OnRestart;
+                @restart.performed -= m_Wrapper.m_Player_mapActionsCallbackInterface.OnRestart;
+                @restart.canceled -= m_Wrapper.m_Player_mapActionsCallbackInterface.OnRestart;
             }
             m_Wrapper.m_Player_mapActionsCallbackInterface = instance;
             if (instance != null)
@@ -250,6 +313,12 @@ public partial class @PlayerInputActions : IInputActionCollection2, IDisposable
                 @roll.started += instance.OnRoll;
                 @roll.performed += instance.OnRoll;
                 @roll.canceled += instance.OnRoll;
+                @pause.started += instance.OnPause;
+                @pause.performed += instance.OnPause;
+                @pause.canceled += instance.OnPause;
+                @restart.started += instance.OnRestart;
+                @restart.performed += instance.OnRestart;
+                @restart.canceled += instance.OnRestart;
             }
         }
     }
@@ -260,5 +329,7 @@ public partial class @PlayerInputActions : IInputActionCollection2, IDisposable
         void OnStrafe_right(InputAction.CallbackContext context);
         void OnJump(InputAction.CallbackContext context);
         void OnRoll(InputAction.CallbackContext context);
+        void OnPause(InputAction.CallbackContext context);
+        void OnRestart(InputAction.CallbackContext context);
     }
 }

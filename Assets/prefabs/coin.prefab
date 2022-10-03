@@ -48,7 +48,7 @@ GameObject:
   - component: {fileID: 4844497822573024395}
   - component: {fileID: 3633560173912711511}
   - component: {fileID: 6876945481898466747}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: coin_mesh
   m_TagString: Untagged
   m_Icon: {fileID: 0}

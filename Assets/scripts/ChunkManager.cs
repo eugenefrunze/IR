@@ -4,6 +4,7 @@ using Random = UnityEngine.Random;
 
 public class ChunkManager : MonoBehaviour
 {
+    //chunks handling
     [SerializeField] ChunkData[] chunksData;
     [SerializeField] ChunkData firstChunk;
     [SerializeField] int initialSize = 10;
@@ -34,11 +35,8 @@ public class ChunkManager : MonoBehaviour
         if (initialOffset > 0) currOffset += initialOffset;
         GenerateInit();
         cycleGenerate = StartCoroutine(CycleGenerate(2f));
-    }
-
-    void GetSuitableNextChunk()
-    {
-        
+        //make entity invisible
+        GetComponent<Renderer>().enabled = false;
     }
 
     void GenerateInit()
@@ -80,10 +78,10 @@ public class ChunkManager : MonoBehaviour
     //temp
     public void DestroyExitedChunk(GameObject chunk)
     {
-        StartCoroutine(ChunkDestroy(chunk, delayBeforeChunkDestroy));
+        StartCoroutine(ChunkDespawn(chunk, delayBeforeChunkDestroy));
     }
 
-    IEnumerator ChunkDestroy(GameObject chunk, float delay)
+    IEnumerator ChunkDespawn(GameObject chunk, float delay)
     {
         yield return new WaitForSeconds(delay);
         Destroy(chunk);
